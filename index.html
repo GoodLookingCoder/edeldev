@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="Sher Sheikh - Web Developer - Creating responsive websites from scratch"
+    />
+    <meta
+      name="keywords"
+      content="sher sheikh, portfolio, web development, developer, front end, frontend developer, odin project, breddit, sher-s7"
+    />
+    <meta name="author" content="Sher Sheikh" />
+    <link rel="shortcut icon" type="image/jpg" href="favicon-32x32.png"/>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Edel David - Portfolio</title>
+  </head>
+
+  <body>
+    <div id="root">
+      <a class="hidden" href="#header" id="scrollToTop"
+        ><img src="assets/up-arrow.png" alt="up-arrow.png"
+      /></a>
+      <header id="header">
+        <div class="headerSection" id="nameTitle">
+          <h1 id="fullname">edel david</h1>
+          <h2 id="title">web developer</h2>
+        </div>
+        <div class="headerSection" id="navLinks">
+          <ul>
+            <li id="projectsLink"><a href="#project-partplanner">projects</a></li>
+            <li id="aboutmeLink"><a href="#aboutMe">about</a></li>
+            <li id="contactmeLink"><a href="#contactMe">contact</a></li>
+            <li id="resumeLink"><a href="#resume">resume</a></li>
+            <li id="githubLink">
+              <a
+                href="https://github.com/sher-s7"
+                target="_blank"
+                rel="noreferrer noopener"
+                >github</a
+              >
+            </li>
+          </ul>
+        </div>
+      </header>
+
+      <section class="projectSection" id="project-partplanner">
+        <a
+          class="prevContainer"
+          href="https://pcpartplanner.herokuapp.com/list"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <img
+            class="projectPreview"
+            src="assets/partplanner.png"
+            alt="partplanner.png"
+        /></a>
+        <ul class="createdWith">
+          <li>React.js</li>
+          <li>Stripe</li>
+          <li>Redux</li>
+          <li>Firebase</li>
+          <li>Styled-Components</li>
+          <li>Flexbox</li>
+          <li>CSS Grid</li>
+          <li>npm</li>
+          <li>Responsive</li>
+        </ul>
+        <div class="description">
+          <p>
+            The Crwn Clothing website is a demo site made to explore using <b class="react">React.js</b> as well as e-commerce 
+            functionality such as creating accounts, shopping carts, and payment integration via Stripe. 
+            The site was created using Redux for managing the application state and <b class="firebase">Firebase</b> for database storage 
+            and user authentication. CSS styling was done with styled-components. The site is fully 
+            responsive for mobile devices. 
+
+          </p>
+          <p>
+            Since this was my first time using Redux, Firebase, and styled-components I learned a lot. There was quite
+            a bit of repetition, which helped solidify my knowledge of React applications.
+          </p>
+        </div>
+        <div class="projectLinks">
+          <a
+            href="https://github.com/GoodLookingCoder/crwn-clothing"
+            target="_blank"
+            rel="noreferrer noopener"
+            class="sourceCode"
+            >SOURCE CODE</a
+          >
+          <a
+            href="https://crwn-clothing-glc.herokuapp.com/"
+            target="_blank"
+            rel="noreferrer noopener"
+            class="liveDemo"
+            >VIEW SITE</a
+          >
+        </div>
+      </section>
+
+      <section class="projectSection" id="project-reddit">
+        <a
+          class="prevContainer"
+          href="https://reddit-clone-a7ea1.web.app/"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <img
+            class="projectPreview"
+            src="assets/breddit.png"
+            alt="breddit.png"
+        /></a>
+        <ul class="createdWith">
+          <li>React.js</li>
+          <li>SCSS</li>
+          <li>Flexbox</li>
+          <li>Grid</li>
+          <li>webpack</li>
+          <li>npm</li>
+          <li>Responsive</li>
+        </ul>
+        <div class="description">
+          <p>
+            This is the traditional Battleship game, created using <b class="react">React.js</b> and
+            <b class="sass">SASS</b>. 
+            It takes advantages of React Hooks to create pure functions as well as other 
+            performance enhancers. Users can place their ships either manually or at random locations 
+            and battle against the computer AI. Once the game is finished they can see the statistics 
+            of the battle.  
+          </p>
+          <p>
+            Implementing the AI was certainly the most challenging part of the hole project. Other thing that
+            took me a while to internalize was the concept that the view (board) is a data structure (array) 
+            that gets modified based on information from state, collected as players interact with the app.
+          </p>
+        </div>
+        <div class="projectLinks">
+          <a
+            href="https://github.com/GoodLookingCoder/BattleShip"
+            target="_blank"
+            rel="noreferrer noopener"
+            class="sourceCode"
+            >SOURCE CODE</a
+          >
+          <a
+            href="https://battleship-glc.herokuapp.com/"
+            target="_blank"
+            rel="noreferrer noopener"
+            class="liveDemo"
+            >VIEW SITE</a
+          >
+        </div>
+      </section>
+      <section class="projectSection" id="project-weather">
+        <a
+          class="prevContainer"
+          href="https://sher-s7.github.io/react-weather-app/"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <img
+            class="projectPreview"
+            src="assets/weather.png"
+            alt="weather.png"
+        /></a>
+        <ul class="createdWith">
+          <li>APIs</li>
+          <li>Javascript</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Flexbox</li>
+          <li>CSS Grid</li>
+          <li>npm</li>
+          <li>Responsive</li>
+        </ul>
+        <div class="description">
+          <p>
+            WeatherCheck allows users to enter a city name and receive current
+            weather data using the
+            <b class="openWeather">
+              <a
+                target="_blank"
+                rel="noreferrer noopener"
+                href="https://openweathermap.org/api"
+                >OpenWeatherMap</a
+              ></b
+            >
+            API. Optionally, a user may provide their location using the
+            <b class="geolocation">
+              <a
+                target="_blank"
+                rel="noreferrer noopener"
+                href="https://developer.mozilla.org/en-US/docs/Web/API/Geolocation_API"
+              >
+                Geolocation</a
+              >
+            </b>
+            API by clicking on the location icon next to the input field. All
+            cities with the specified name are displayed, and a temperature unit
+            toggle is available to switch between Celsius and Fahrenheit. City
+            cards are formatted with the help of CSS Grid.
+          </p>
+          <p>
+            One part of this project that had me Googling quite a bit was the Unix time returned by the API for sunrise/sunset times.
+            I wasn't familiar with it before doing this project, and trying to figure out how to convert it to regular time,
+            but also to the correct timezone of the city being displayed, was a tricky task.
+
+          </p>
+        </div>
+        <div class="projectLinks">
+          <a
+            href="https://github.com/GoodLookingCoder/Weather-App"
+            target="_blank"
+            rel="noreferrer noopener"
+            class="sourceCode"
+            >SOURCE CODE</a
+          >
+          <a
+            href="https://goodlookingcoder.github.io/Weather-App/"
+            target="_blank"
+            rel="noreferrer noopener"
+            class="liveDemo"
+            >VIEW SITE</a
+          >
+        </div>
+      </section>
+      <section class="projectSection" id="project-weather">
+        <a
+          class="prevContainer"
+          href="https://sher-s7.github.io/react-weather-app/"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <img
+            class="projectPreview"
+            src="assets/brba.png"
+            alt="weather.png"
+        /></a>
+        <ul class="createdWith">
+          <li>APIs</li>
+          <li>React</li>
+          <li>CSS</li>
+          <li>Flexbox</li>
+          <li>npm</li>
+          <li>Responsive</li>
+        </ul>
+        <div class="description">
+          <p>
+            This application puts your memory to the test. You are presented with multiple images from 
+            the <b class="ba">Breaking Bad API</b>. The images get shuffled every-time they are clicked. You can not click on any 
+            image more than once or else your score resets to zero. The main objective is to get the highest 
+            score as possible.
+          </p>
+          <p>
+            This was my first time using React so it was a huge learning experience. Before stating this project
+            I felt a bit intimidated by all the new concepts introduced by React but eventually it all clicked
+          </p>
+        </div>
+        <div class="projectLinks">
+          <a
+            href="https://github.com/GoodLookingCoder/MemoryGame"
+            target="_blank"
+            rel="noreferrer noopener"
+            class="sourceCode"
+            >SOURCE CODE</a
+          >
+          <a
+            href="https://breaking-bad-mg.herokuapp.com/"
+            target="_blank"
+            rel="noreferrer noopener"
+            class="liveDemo"
+            >VIEW SITE</a
+          >
+        </div>
+      </section>
+            <section class="projectSection" id="project-reddit">
+        <a
+          class="prevContainer"
+          href="https://reddit-clone-a7ea1.web.app/"
+          target="_blank"
+          rel="noreferrer noopener"
+        >
+          <img
+            class="projectPreview"
+            src="assets/tetris.png"
+            alt="breddit.png"
+        /></a>
+        <ul class="createdWith">
+          <li>JavaScript</li>
+          <li>HTML</li>
+          <li>CSS</li>
+          <li>Canvas API</li>
+          <li>Responsive</li>
+
+        </ul>
+        <div class="description">
+          <p>
+            Based on the classic Tetris game, this application was designed in raw Javascript code(no libraries)
+            It manipulates DOM elements to output the app onto an HTML canvas element. Relies on both event 
+            handling and the use of objects
+          </p>
+          <p>
+            This was one of the first projects I worked on. I think that having built it from scratch helped 
+            me greatly to strengthen my knowledge in the JavaScript fundamentals. In retrospect, 
+            it's simple, but required a great deal of trial and error and study at the time
+          </p>
+        </div>
+        <div class="projectLinks">
+          <a
+            href="https://github.com/GoodLookingCoder/Tetris"
+            target="_blank"
+            rel="noreferrer noopener"
+            class="sourceCode"
+            >SOURCE CODE</a
+          >
+          <a
+            href="https://goodlookingcoder.github.io/Tetris/"
+            target="_blank"
+            rel="noreferrer noopener"
+            class="liveDemo"
+            >VIEW SITE</a
+          >
+        </div>
+      </section>
+      <section id="aboutMe">
+        <div id="aboutContainer">
+          <h2>About me</h2>
+          <p>
+            Hello there, my name is Edel David and I am a front end developer.
+          </p>
+          <p>
+            I have always been a dedicated and determinated person who sets goals for himself.
+            Therefore, when I developed and interest for programing I did not hesitate to turn my 
+            interest into a career. Having learned most of my skills trough self teaching I have 
+            developed valuable skills that are reflected in my work. Learning from mistakes and successes
+            I have compleated various projects and hope to keep expanding my knowledge and creating more 
+            material
+          </p>
+          <p>
+
+          </p>
+        </div>
+      </section>
+
+      <section id="contactMe">
+        <h2>Get in touch</h2>
+        <a
+          id="linkedin"
+          target="_blank"
+          rel="noreferrer noopener"
+          href="https://www.linkedin.com/public-profile/in/sher-sheikh-3a97a8189/?challengeId=AQE1KHOPqo2BKQAAAXRl_lxpzBYAQGAH85MFBqieb38zrc3YxEA-4eoeiIpY4QoCHhIxgp2ARMa6aXT1piVfgAeFQ9sj5V9Fzw&submissionId=903f9875-4c59-3216-dd2f-6a00f51dbd1e"
+        >
+          Linkedin <img src="assets/linkedin.png" alt="linkedin.png" />
+        </a>
+        <div id="emailContainer">
+          <a
+            id="emailLink"
+            href="mailto:sher.sheikh77@gmail.com"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            <input id="email" value="salazaredeldavid@gmail.com" readonly />
+            <img src="assets/email.png" alt="email.png" />
+          </a>
+          <button id="copyBtn">COPY</button>
+        </div>
+        <div class="hidden" id="copySuccess">Email copied to clipboard</div>
+      </section>
+
+      <div id="resume">
+        <h2>Resume</h2>
+        <div id="resumeLinks">
+          <a
+            href="https://drive.google.com/file/d/1Lb1qJwUCWMHq-8sPn0CCuQ3A4z5nzflN/view?usp=sharing"
+            target="_blank"
+            rel="noreferrer noopener"
+          >
+            View online
+            <img src="assets/external-link.png" alt="external-link.png"
+          /></a>
+          <a href="downloads/Sher Sheikh - Full Stack Resume.pdf" download>
+            Download PDF <img src="assets/download.png" alt="download.png"
+          /></a>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <a
+        href="https://github.com/GoodLookingCoder"
+        target="_blank"
+        rel="noreferrer noopener"
+        >Edel David<img src="assets/github.png" alt="github"
+      /></a>
+    </footer>
+
+    <script src="smoothscroll.min.js"></script>
+    <script type="text/javascript" src="main.js"></script>
+  </body>
+</html>
