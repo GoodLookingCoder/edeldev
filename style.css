@@ -299,7 +299,7 @@ b.aftereffects {
   background-color: transparent;
   border: none;
   margin: 0;
-  color: var(--fontColor);
+  color: #c3c8d1;
   font-size: 16px;
   width: 100%;
   text-align: center;
@@ -314,7 +314,7 @@ b.aftereffects {
   grid-column-end: 3;
   height: 60px;
   margin-bottom: 5px;
-  width: 280px;
+  width: 300px;
 }
 #copyBtn {
   display: flex;
@@ -328,14 +328,14 @@ b.aftereffects {
   align-items: center;
   cursor: pointer;
   height: 40px;
-  width: 280px;
+  width: 300px;
   margin: 0 auto;
   color: var(--fontColor);
   border: none;
 }
 
 #linkedin {
-  width: 280px;
+  width: 300px;
 }
 
 #copySuccess {
